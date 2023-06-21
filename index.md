@@ -8,7 +8,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
-  <!--
+<!--
 # Final Milestone
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -43,11 +43,8 @@ For your first milestone, describe what your project is and how you plan to buil
 <!--iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe-->
 
 # Starter Milestone
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+
+For my starter project, I chose to make a useless machine. It's basically a machine with its sole purpose being to deactivate itself when turned on. The way it works is that there is a switch on top and when it is flicked, a motor runs which moves an arm up out of the box and flicks the switch back. The motor then runs in reverse and retracts the arm back into the box and it stops moving when it hits another switch inside of the mechanism. I made this project by soldering some parts onto a circuit board and attaching them to a motor assembly. I then attached an arm to the motor and then built a box around the whole system. The biggest challenge I faced was having to spend a lot of time undoing my mistakes because I didn't look over the instructions carefully enough before assembling something. At one point I soldered an LED to the wrong side of my PCB so I had to spend a lot of time de-soldering it and I had to get a new part.
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
