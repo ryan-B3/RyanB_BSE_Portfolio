@@ -25,13 +25,14 @@
 
 <!---iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe--->
 
-<!---# First Milestone--->
-<!---For your first milestone, describe what your project is and how you plan to build it. You can include:- An explanation about the different components of your project and how they will all integrate together- Technical progress you've made so far- Challenges you're facing and solving in your future milestones
- What your plan is to complete your project--->
-
-<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share, Embed, and copy and paste the code to replace what's below.**--->
+# First Milestone
 
 <!---iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe--->
+
+For my main project, I decided to make the Third Eye for the Blind project which is a visual aid tool that can determine the proximity of objects. I chose this because it had a real-world application and could be modified and improved upon in the future. The way it works is that the ultrasonic sensor sends out waves that bounce off of objects and return to the ultrasonic sensor. The program then takes the time it takes for the waves to travel out and come back and uses the time to determine the distance of the objects. Then based on the distance of the objects, the Arduino turns on the pins of the buzzers and LED. When it senses an object is closer, the buzzers will beep faster and at a higher pitch. One problem I initially ran into was my Arduino would run by itself but it was not able to activate any components on the breadboard. I then realized that the Arduino pins are not made to work with the breadboard so just attached jumper wires between the Arduino pins and the breadboard and then the circuit was able to run as intended. The next steps for this project are to make a physical hand mount for the ultrasonic and to move the rest of the circuits off of the breadboard. 
+
+
+
 
 # Starter Milestone
 
