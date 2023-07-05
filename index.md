@@ -27,7 +27,7 @@
 
 # First Milestone
 
-<!---iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe--->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cw2lFAywD8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For my main project, I decided to make the Third Eye for the Blind project which is a visual aid tool that can determine the proximity of objects. I chose this because it had a real-world application and could be modified and improved upon in the future. The way it works is that the ultrasonic sensor sends out waves that bounce off of objects and return to the ultrasonic sensor. The program then takes the time it takes for the waves to travel out and come back and uses the time to determine the distance of the objects. Then based on the distance of the objects, the Arduino turns on the pins of the buzzers and LED. When it senses an object is closer, the buzzers will beep faster and at a higher pitch. One problem I initially ran into was my Arduino would run by itself but it was not able to activate any components on the breadboard. I then realized that the Arduino pins are not made to work with the breadboard so just attached jumper wires between the Arduino pins and the breadboard and then the circuit was able to run as intended. The next steps for this project are to make a physical hand mount for the ultrasonic and to move the rest of the circuits off of the breadboard. 
 
