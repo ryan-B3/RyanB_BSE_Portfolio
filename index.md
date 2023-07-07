@@ -1,6 +1,5 @@
 # Third Eye for the Blind
-
-<!--- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! --->
+My project, Third Eye for the Blind, is a helpful (sort of) tool for the blind. Currently, it is capable of detecting objects in its line of sight from up to around a meter away. The device can notify the user of an object by making noises.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -43,12 +42,58 @@ For my starter project, I chose to make a useless machine. It's basically a mach
 <!---# Schematics--->
 <!---Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. --->
 
-<!---# Code--->
-<!---Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. --->
-
-<!---```c++--->
-
-<!---```--->
+# Code
+```
+  Arduino Code:
+  
+  const int pingTrigPin = 12;  
+  const int pingEchoPin = 10;   
+  int buz=8; 
+  int led=7;
+  int pch;
+     
+  void setup() {   
+  Serial.begin(9600);   
+  pinMode(buz, OUTPUT);
+  pinMode(led, OUTPUT);   
+  }   
+  
+  void loop(){   
+    long duration, cm;   
+    
+    pinMode(pingTrigPin, OUTPUT);   
+    digitalWrite(pingTrigPin, LOW);   
+    delayMicroseconds(2);   
+    digitalWrite(pingTrigPin, HIGH);   
+    delayMicroseconds(5);   
+    digitalWrite(pingTrigPin, LOW);   
+    pinMode(pingEchoPin, INPUT);   
+    duration = pulseIn(pingEchoPin, HIGH);   
+    cm = microsecondsToCentimeters(duration);   
+  
+    if(cm<=90 && cm>0){   
+      int d= map(cm, 1, 100, 15, 1000);   
+      //digitalWrite(buz, HIGH);
+      tone(buz, pch);
+      digitalWrite(led, HIGH);
+      delay(50);   
+      //digitalWrite(buz, LOW);
+      noTone(buz);
+      digitalWrite(led, LOW);
+   
+      delay(d / 2);
+      pch= 4400;
+    
+      Serial.println(pch);
+      }   
+     
+    delay(50);   
+    }   
+  
+  long microsecondsToCentimeters(long microseconds){   
+    return microseconds / 29 / 2;   
+    } 
+```
 
 <!---# Bill of Materials--->
 <!---Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.--->
