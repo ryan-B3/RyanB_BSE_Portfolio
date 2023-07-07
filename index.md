@@ -39,8 +39,8 @@ For my main project, I decided to make the Third Eye for the Blind project which
 
 For my starter project, I chose to make a useless machine. It's basically a machine with its sole purpose being to deactivate itself when turned on. The way it works is that there is a switch on top and when it is flicked, a motor runs which moves an arm up out of the box and flicks the switch back. The motor then runs in reverse and retracts the arm back into the box and it stops moving when it hits another switch inside of the mechanism. I made this project by soldering some parts onto a circuit board and attaching them to a motor assembly. I then attached an arm to the motor and then built a box around the whole system. The biggest challenge I faced was having to spend a lot of time undoing my mistakes because I didn't look over the instructions carefully enough before assembling something. At one point I soldered an LED to the wrong side of my PCB so I had to spend a lot of time de-soldering it and I had to get a new part.
 
-<!---# Schematics--->
-<!---Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. --->
+# Schematics
+!(circuit_diagram_mYCjs1u85u.avif)
 
 # Code
 ```
