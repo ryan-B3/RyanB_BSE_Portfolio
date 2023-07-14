@@ -49,7 +49,7 @@ For my starter project, I chose to make a useless machine. It's basically a mach
   const int pingTrigPin = 12;  
   const int pingEchoPin = 10;   
   int buz=8; 
-  int led=7;
+  int led=6;
   int pch;
      
   void setup() {   
