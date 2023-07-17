@@ -1,5 +1,5 @@
 # Third Eye for the Blind
-My project, Third Eye for the Blind, is a helpful (sort of) tool for the blind. Currently, it is capable of detecting objects in its line of sight from up to around a meter away. The device can notify the user of an object by making noises.
+
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
