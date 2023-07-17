@@ -17,12 +17,11 @@ My project, Third Eye for the Blind, is a helpful (sort of) tool for the blind. 
 
 <!---iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe--->
 
-<!---# Second Milestone--->
-<!---For your second milestone, explain what you've worked on since your previous milestone. You can highlight:- Technical details of what you've accomplished and how they contribute to the final goal- What has been surprising about the project so far- Previous challenges you faced that you overcame- What needs to be completed before your final milestone--->
+# Second Milestone
 
-<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share, Embed, and copy and paste the code to replace what's below.**--->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oeN6mqcE5e8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<!---iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe--->
+Since my first milestone, I have moved the components to a more permanent system. I soldered most of the components to a perf board, which is a thin board with perforations that you can easily solder wires and parts to. I then made a way to attach everything to my hand by making a strap that wraps around my palm out of tape. I then used velcro to attach the main piece of circuitry to the back of my hand and taped the ultrasonic sensor to the palm of my hand. By separating the ultrasonic from the rest of the components, I can comfortably put it in the palm of my hand while being able to point at things with more ease. While making this setup, I did run into one small setback. I accidentally plugged the wires from the powered Arduino into the wrong ultrasonic pins which caused my sensor to break. But after swapping out for a new sensor, the device worked as intended and I was able to circumnavigate the room while blindfolded.
 
 # First Milestone
 
@@ -30,14 +29,11 @@ My project, Third Eye for the Blind, is a helpful (sort of) tool for the blind. 
 
 For my main project, I decided to make the Third Eye for the Blind project which is a visual aid tool that can detect objects in its line of sight. I chose this because it had a real-world application and could be modified and improved upon in the future. The way it works is that the ultrasonic sensor sends out waves that bounce off of objects and return to the ultrasonic sensor. The program then takes the time it takes for the waves to travel out and come back and uses the time to determine the distance of the objects. Then based on the distance of the objects, the Arduino turns on the pins of the buzzers and LED. When it senses an object is closer, the buzzers will beep faster and at a higher pitch. One problem I initially ran into was my Arduino would run by itself but it was not able to activate any components on the breadboard. I then realized that the Arduino pins are not made to work with the breadboard so just attached jumper wires between the Arduino pins and the breadboard and then the circuit was able to run as intended. The next steps for this project are to make a physical hand mount for the ultrasonic and to move the rest of the circuits off of the breadboard. 
 
-
-
-
 # Starter Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8CRr5LJR0LM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For my starter project, I chose to make a useless machine. It's basically a machine with its sole purpose being to deactivate itself when turned on. The way it works is that there is a switch on top and when it is flicked, a motor runs which moves an arm up out of the box and flicks the switch back. The motor then runs in reverse and retracts the arm back into the box and it stops moving when it hits another switch inside of the mechanism. I made this project by soldering some parts onto a circuit board and attaching them to a motor assembly. I then attached an arm to the motor and then built a box around the whole system. The biggest challenge I faced was having to spend a lot of time undoing my mistakes because I didn't look over the instructions carefully enough before assembling something. At one point I soldered an LED to the wrong side of my PCB so I had to spend a lot of time de-soldering it and I had to get a new part.
+For my starter project, I chose to make a useless machine. It's a machine with its sole purpose being to deactivate itself when turned on. The way it works is that there is a switch on top and when it is flicked, a motor runs which moves an arm up out of the box and flicks the switch back. The motor then runs in reverse and retracts the arm back into the box and it stops moving when it hits another switch inside the mechanism. I made this project by soldering some parts onto a circuit board and attaching them to a motor assembly. I then attached an arm to the motor and built a box around the system. The biggest challenge I faced was having to spend a lot of time undoing my mistakes because I didn't look over the instructions carefully enough before assembling something. At one point I soldered an LED to the wrong side of my PCB so I had to spend a lot of time de-soldering it and I had to get a new part.
 
 # Schematics
 ![schematic of things](Schematic1.png)
