@@ -10,7 +10,12 @@
 
 <!---![Headstone Image](logo.svg)--->
 
-<!---# Final Milestone--->
+# Final Milestone
+
+
+
+For my final milestone, I decided to make a second sensor module that attaches to the knee. I took another Arduino Nano and perf board and soldered the same components together. This time, since the ultrasonic wouldn't be handheld, I also attached it to the board and positioned it in a way where it faces outward. 
+
 <!---For your final milestone, explain the outcome of your project. Key details to include are: - What you've accomplished since your previous milestone - What your biggest challenges and triumphs were at BSE - A summary of key topics you learned about - What you hope to learn in the future after everything you've learned at BSE --->
 
 <!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share, Embed, and copy and paste the code to replace what's below.**--->
