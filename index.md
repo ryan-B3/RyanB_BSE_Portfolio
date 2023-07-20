@@ -3,7 +3,7 @@
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Ryan B | Valley Christian High School | Engineering | Incoming Sophomore
+| Ryan B | Valley Christian High School | Biomedical Engineering | Incoming Sophomore
 
 
 <!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**--->
@@ -12,15 +12,11 @@
 
 # Final Milestone
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c4ZTqKQzVrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+For my final milestone, I decided to make a second sensor module that attaches to the knee. I took another Arduino Nano and perf board and soldered the same components together. This time, since the ultrasonic wouldn't be handheld, I also attached it to the board and positioned it in a way where it faces outward. I then was able to hot glue the whole unit to a strap and then I was done with this part of the project. 
 
-For my final milestone, I decided to make a second sensor module that attaches to the knee. I took another Arduino Nano and perf board and soldered the same components together. This time, since the ultrasonic wouldn't be handheld, I also attached it to the board and positioned it in a way where it faces outward. 
-
-<!---For your final milestone, explain the outcome of your project. Key details to include are: - What you've accomplished since your previous milestone - What your biggest challenges and triumphs were at BSE - A summary of key topics you learned about - What you hope to learn in the future after everything you've learned at BSE --->
-
-<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share, Embed, and copy and paste the code to replace what's below.**--->
-
-<!---iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe--->
+Overall I'm pretty happy with what I've worked on over the past few weeks. I've learned quite a lot about things like circuitry and using sensors as well as improved skills like programming and soldering. However, I think the biggest thing I have gained from this program is more independence with troubleshooting and problem-solving. In the future, I plan to find more things that fit into my personal engineering interests, whether they're my own projects or programs, and learn how I can apply my engineering knowledge to make changes in the real world.
 
 # Second Milestone
 
